@@ -1,0 +1,5 @@
+FROM python:3.12-slim
+
+WORKDIR /app
+COPY workspace/ /app/
+ENV PYTHONUNBUFFERED=1
